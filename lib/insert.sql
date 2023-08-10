@@ -33,9 +33,5 @@ bears(name, age, sex, color, temperament, alive)
 VALUES
 ("Wendy", 30, "M", "Brown", "Mean", 0);
 
-INSERT INTO 
-bears(name, age, sex, color, temperament, alive)
-VALUES
-("Unnamed", 30, "M", "Brown", "Mean", 0);
-
-unnamed (refer back to how to create a record that doesn't have one value)
+INSERT OR IGNORE INTO bears (name, age, sex, color, temperament, alive) 
+VALUES (NUll, NULL, NULL, NULL, NULL, NULL);
